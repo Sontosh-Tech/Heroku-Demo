@@ -9,7 +9,7 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import GaussianNB
 import pickle
-nltk.download('wordnet')
+#nltk.download('wordnet')
 
 df=pd.read_csv('Restaurant_Reviews.tsv', delimiter='\t')
 
